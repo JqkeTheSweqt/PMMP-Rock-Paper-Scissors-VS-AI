@@ -1,0 +1,15 @@
+---
+name: RPS
+version: 0.0.1
+main: Jqke207\RPS\Main
+api: 5.42.1
+src-namespace-prefix: Jqke207\RPS
+commands:
+  rps:
+    description: Searches for a rock paper scissors game
+    usage: "/rps"
+    permission: rps.command.rps
+permissions:
+  rps.command.rps:
+    description: "Allows the user to run the rock paper scissors command."
+    default: true
